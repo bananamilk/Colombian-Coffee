@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="js/setHomeSetFav.js"></script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="top_content">
+				<ul>
+					<li><a href="#">联系我们</a></li>
+					<li><a onclick="AddFavorite(window.location, document.title)" href="javascript:void(0)">加入收藏</a></li>
+					<li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></li>
+				</ul>
+			</div>
+		</div><!--top-->
+		<div class="warp">
+			<div class="logo">
+				<div class="logo_left">
+					<img src="images/logo.jpg">
+				</div>
+				<div class="logo_right">
+					<img src="images/tel.jpg">
+					24小时服务热线：
+					<span class="tel">123-456-7890</span>
+				</div>
+			</div><!--logo-->
+			<div class="nav">
+				<div class="nav_left"></div><!--nav_left-->
+				<div class="nav_mid">
+					<div class="nav_mid_left">
+						<ul>
+							<li><a href="#">首页</a></li>
+							<li><a href="#">关于幕课</a></li>
+							<li><a href="#">新闻动态</a></li>
+							<li><a href="#">课程中心</a></li>
+							<li><a href="#">在线动态</a></li>
+							<li><a href="#">联系我们</a></li>
+						</ul>
+					</div><!--nav_mid_left-->
+					<div class="nav_mid_right">
+						<form method="post" action="">
+							<input type="text" class="search_text">
+						</form>
+					</div><!--nav_mid_right-->
+				</div>
+				<div class="nav_right"></div><!--nav_right-->
+			</div><!--nav-->
+		</div><!--warp-->
+	</body>
+</html>
