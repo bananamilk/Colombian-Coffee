@@ -3,6 +3,18 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<script type="text/javascript" src="js/setHomeSetFav.js"></script>
+		<script type="text/javascript" src="js/myfocus-2.0.1.min.js" charset="utf-8"></script>
+		<script type="text/javascript">
+			myFocus.set({
+				id:'picBox',
+				pattern:'mF_fancy',
+				time:3,//切换时间间隔(秒)
+			    trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+			    width:1000,//设置图片区域宽度(像素)
+			    height:310,//设置图片区域高度(像素)
+			    txtHeight:'default'
+			});
+		</script>
 	</head>
 	<body>
 		<div class="top">
@@ -46,6 +58,15 @@
 				</div>
 				<div class="nav_right"></div><!--nav_right-->
 			</div><!--nav-->
+			<div class="ad" id="picBox">
+				<div class="pic">
+					<ul>
+						<li><a href=""><img src="images/ad2.jpg"></a></li>
+						<li><a href=""><img src="images/ad3.jpg"></a></li>
+						<li><a href=""><img src="images/ad4.jpg"></a></li>
+					</ul>
+				</div>
+			</div><!--ad-->
 		</div><!--warp-->
 	</body>
 </html>
