@@ -124,3 +124,9 @@ body{
 	border: 1px solid #FFF;
 	padding-right: 25px;
 }
+/*ad*/
+.ad{
+	height: 320px;
+	margin-top: 5px;
+	overflow: hidden;
+}
