@@ -258,3 +258,33 @@ body{
 	height: 55px;
 	border: 1px solid #E8E8E8;
 }
+/*copyright*/
+.copyright{
+	width: 100%;
+	height: 200px;
+	background-color: #E8e8E8;
+	margin-top: 10px;
+}
+.copyright_content {
+	width: 1000px;
+	height: 180px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.copyright_content ul{
+	height: 120px;
+}
+.copyright_content li{
+	float: left;
+	list-style-type: none;
+	background: url(images/line.png) no-repeat right center;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	line-height: 30px;
+	color: #999;
+	width: 200px;
+	text-align: center;
+}
+.copyright_content li ul li {
+	font-size: 14px;
+}
