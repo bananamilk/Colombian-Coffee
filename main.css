@@ -348,3 +348,9 @@ body{
 	color: #F00;
 	text-decoration: none;
 }
+.news_list1 li{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis; 
+	width: 747px;
+}
