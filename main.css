@@ -135,7 +135,6 @@ body{
 .main {
 	height: 250px;
 	margin-top: 5px;
-	background-color: #FFF;
 }
 .news {
 	width: 340px;
@@ -292,9 +291,12 @@ body{
 
 
 /*news*/
-.mian_left{
+.main_left{
 	float: left;
 	width: 220px;
+	height: 265px;
+	background: url(images/content_bg.gif) repeat-x left top;
+	background-color: #FFF;
 }
 .main_right {
 	width: 770px;
@@ -302,4 +304,36 @@ body{
 	background-color: #FFF;
 	_height:350px;
 	min-height: 350px;
+}
+
+.main_left h2{
+	height: 35px;
+	line-height: 35px;
+	color: #999;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	background: url(images/titile_bg.gif) repeat-x;
+	padding-left: 15px;
+}
+.main_left li{
+	list-style-type: none;
+	padding:5px 10px;
+	font-size: 10px;
+	font-family: "微软雅黑";
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #E8E8E8;
+}
+.main_left li a{
+	color: #666;
+	text-decoration: none;
+	display: block;
+	background: url(images/li_bg.gif) no-repeat left center;
+	padding-left: 15px;
+}
+.main_left li a:hover{
+	color: #009CDF;
+	text-decoration: none;
+	background: url(images/li_bg2.gif) no-repeat left center;
+	background-color: #F2F2F2;
 }
