@@ -348,9 +348,10 @@ body{
 	color: #F00;
 	text-decoration: none;
 }
-.news_list1 li{
+.news_list1 a{
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow:ellipsis; 
-	width: 747px;
+	width: 670px;
+	display: inline-block;
 }
