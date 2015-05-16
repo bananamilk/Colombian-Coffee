@@ -264,6 +264,7 @@ body{
 	height: 200px;
 	background-color: #E8e8E8;
 	margin-top: 10px;
+	clear: both;
 }
 .copyright_content {
 	width: 1000px;
@@ -287,4 +288,18 @@ body{
 }
 .copyright_content li ul li {
 	font-size: 14px;
+}
+
+
+/*news*/
+.mian_left{
+	float: left;
+	width: 220px;
+}
+.main_right {
+	width: 770px;
+	float: right;
+	background-color: #FFF;
+	_height:350px;
+	min-height: 350px;
 }
