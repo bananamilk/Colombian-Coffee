@@ -200,7 +200,7 @@ body{
 .news_list{
 	margin-top: 20px;
 }
-.news_list li{
+.news_list li,.news_list1 li{
 	list-style-type: none;
 	border-bottom: 1px dotted #CCC;
 	background: url(images/list.jpg) no-repeat;
@@ -209,7 +209,7 @@ body{
 	height: 17px;
 	line-height: 17px;
 }
-.news_list span {
+.news_list span,.news_list1 span {
 	float: right;
 	color: #999;
 	font-size: 6px;
@@ -336,4 +336,15 @@ body{
 	text-decoration: none;
 	background: url(images/li_bg2.gif) no-repeat left center;
 	background-color: #F2F2F2;
+}
+.news_list1 ul{
+	margin-top: 0px;
+}
+.news_list1 a:link, .news_list1 a:visited {
+	text-decoration: none;
+	color: #000;
+}
+.news_list1 a:hover, .news_list1 a:active {
+	color: #F00;
+	text-decoration: none;
 }
