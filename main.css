@@ -376,3 +376,16 @@ body{
 	color:#FFF;
 	background-color:#cc1b1b;
 }
+
+.to_top{
+	width: 40px;
+	height: 40px;
+	background: url(images/top_bg.png) no-repeat top ;
+	display: inline-block;
+	position:fixed; 
+	right:65px; 
+	bottom:10px;
+}
+.to_top:hover{
+	background: url(images/top_bg.png) no-repeat 0 -39px ;
+}
