@@ -393,3 +393,67 @@ body{
 .to_top:hover{
 	background: url(images/top_bg.png) no-repeat 0 -39px ;
 }
+/*concertina*/
+.concertina{
+	width: 1000px;
+	height: 128px;
+	float: left;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border:1px solid #d3d3d3;
+	border-color:rgba(0,0,0,.12);
+	overflow:hidden;
+	margin-top:12px;
+	background:#fff
+}
+.concertina li{
+	float: left;
+	list-style-type: none;
+	width:156px;
+	height:128px;
+
+}
+.concertina a{
+	text-decoration: none;
+	display:block;
+	position:relative;
+	cursor:pointer;
+	overflow:hidden;
+}
+.concertina .info{
+	position: absolute;
+	top:0;
+	left:0;
+	width:136px;
+	padding:4px 10px;
+}
+.concertina li .info h3{
+	font-size:14px;
+	font-weight:700;
+}
+.concertina li .info p{
+	color:#868686;
+	font-size:12px;
+	overflow:hidden;
+	width:136px;
+	height:22px;
+	line-height:22px;
+}
+.concertina li .info p.price{
+	font-size:14px;
+	font-style:italic;
+	color:#fa2a5d;
+	height:35px;
+}
+.concertina li .info p.price strong{
+	font-size:22px;
+	font-family:Arial;
+	padding-right:2px;
+}
+.concertina li .info p.price i{
+	font-size:14px;
+}
+.concertina li .info p.more{
+	display:none;
+}
