@@ -368,6 +368,9 @@ body{
     text-decoration:none;
 	margin:5px;
 	padding:5px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 .page a:link,.page a:visited{
 	color:#000;
@@ -377,6 +380,7 @@ body{
 	background-color:#cc1b1b;
 }
 
+/*to_top*/
 .to_top{
 	width: 40px;
 	height: 40px;
