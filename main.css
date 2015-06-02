@@ -421,6 +421,9 @@ body{
 	cursor:pointer;
 	overflow:hidden;
 }
+.concertina li img{
+	right: -15px;
+}
 .concertina .info{
 	position: absolute;
 	top:0;
@@ -456,4 +459,17 @@ body{
 }
 .concertina li .info p.more{
 	display:none;
+}
+.concertina i{
+	border-right: 1px dotted #868686;
+}
+
+.big, .big a{
+	width:400px;
+}
+.big img{
+	width:195px;
+	height:120px;
+	right:0;
+	bottom:0;
 }
